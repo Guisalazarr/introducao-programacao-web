@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Home</title>
+</head>
+<header>
+    <h1>Meus Recados</h1>
+    <button id="button-exit" onclick="exit()">Sair</button>
+</header>
+<body>
+    <main id="home">
+        <form id="recados-form">
+            <input type="text" id="imput-descricao" placeholder="Descrição" required>
+            <input type="text"  id="imput-detalhamento" placeholder="Detalhamento" required>
+            <input type="submit" id="button-salvar" name="Salvar" value="Salvar">  
+        </form>
+        <br>
+        <hr>
+        <table>
+        <table>
+            <thead>
+                <tr>
+                <th>#</th>
+                <th>Descrição</th>
+                <th>Detalhamento</th>
+                <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="lista-contatos"></tbody>
+        </table>   
+    </main>
+    <script src="./js/home.js"></script>
+</body>
+</html>

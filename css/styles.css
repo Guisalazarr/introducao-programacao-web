@@ -1,0 +1,160 @@
+.index, .login{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-align: justify;
+}
+
+#home, header{
+   margin-left: 10px;
+}
+
+ header{
+  display: flex;
+  margin-left: 10px;
+ }
+
+    img{
+    height: 97vh;
+    width: 650px;
+    margin: 1 1 1 1;
+ }
+
+ h2{
+    color: #434247;
+ }
+
+ p{
+   color: #434247;
+   font-size: 15px;
+}
+
+ .bloco2{
+    height: 500px;
+    width: 80%;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 300px;
+ }
+
+ #entrar{
+    background-color: green;
+    padding-left: 230px;
+    padding-right: 230px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    border: none;
+    font-size: medium;
+ }
+
+  #entrar:hover, #criar-conta:hover{
+    background-color: blue;
+ }
+
+ .login-input{
+    margin-top: 15px;
+    width: 230px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+ }
+
+ #criar-conta{
+   background-color: green;
+   padding-left: 140px;
+   padding-right: 140px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   color: white;
+   border: none;
+   font-size: medium;
+   margin-top: 15px;
+ }
+
+ .login-criar-conta{
+   margin-top: 35px;
+   width: 380px;
+   padding-right: 10px;
+   padding-left: 10px;
+   padding-top: 8px;
+   padding-bottom: 8px;
+ }
+
+ .bloco2-index{
+   height: 500px;
+   width: 80%;
+   text-align: center;
+   margin-left: 10px;
+   margin-top: 250px;
+ }
+
+
+#imput-descricao{
+   height: 30px;
+   width: 400px;
+   margin-right: 15px;
+   padding-left: 10px;
+ }
+
+
+ #imput-detalhamento{
+   height: 30px;
+   margin-right: 15px;
+   padding-left: 10px;
+   width: 700px;
+ }
+
+ #button-salvar{
+   color: white;
+   background-color: rgb(68, 79, 245);
+   width: 60px;
+   height: 35px;
+   border: none;
+   border-radius: 5px;
+ }
+ 
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #DDD;
+}
+
+tbody > tr:hover {
+    background-color: #D6EEEE;
+}
+
+#button-exit{
+    width: 50px;
+    height: 30px;
+    margin: 27px 30px 0 50px;
+    color: white;
+    background-color: rgb(68, 79, 245);
+    border: none;
+    border-radius: 5px;
+}
+
+.button-editar{
+  color: white;
+  background-color: green;
+  width: 60px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+}
+
+.button-apagar{
+  color: white;
+  background-color: red;
+  width: 60px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 2px;
+}
